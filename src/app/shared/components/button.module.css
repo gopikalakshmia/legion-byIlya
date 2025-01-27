@@ -1,0 +1,61 @@
+.button {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    
+    padding: 3px 15px;
+    border: 1px solid var(--color-primary);
+    border-radius: 18px;
+    
+    font-family: var(--font-text);
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-decoration: none;
+    
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+    
+    transition: all 0.2s ease;
+   }
+   
+   .button:hover {
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+   }
+   
+   .button:active {
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+    scale: 0.8;
+   }
+   
+   .invbutton {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    
+    padding: 3px 15px;
+    border: 1px solid var(--color-primary);
+    border-radius: 18px;
+    
+    font-family: var(--font-text);
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-decoration: none;
+    
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+    
+    transition: all 0.2s ease;
+   }
+   
+   .invbutton:hover {
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+   }
+   
+   .invbutton:active {
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+    scale: 0.85;
+   }

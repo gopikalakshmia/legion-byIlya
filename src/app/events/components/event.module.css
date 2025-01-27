@@ -1,0 +1,123 @@
+.hero {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100%;
+    height: 600px;
+    padding-top: 125px;
+    margin-top: -40px;
+    overflow: hidden;
+    
+    color: var(--color-secondary);
+    font-family: var(--font-primary);
+   }
+   
+   .hero > * {
+    position: relative;
+    z-index: 1;
+   }
+   
+   .hero > div {
+    height: 400px;
+   }
+   
+   .hero h1 {
+    margin-top: 30px;
+    
+    font-size: 2.7rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    filter: drop-shadow(1px 1px 4px rgba(0,0,0,0.5));
+   }
+   
+   .hero h2 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-align: center;
+   }
+   
+   .hero h2 span {
+    font-weight: 300;
+   }
+   
+   .hero address {
+    font-size: 0.95rem;
+    font-style: normal;
+    text-align: center;
+    opacity: 0.6;
+   }
+   
+   .hero img {
+    border-radius: 5px;
+   }
+   
+   .content {
+    width: clamp(500px, 80%, 1250px);
+    margin-bottom: 40px;
+   }
+   
+   .content h1 {
+    margin: 30px 0 20px 0;
+    
+    font-size: var(--header-size);
+    font-weight: 700;
+    text-transform: uppercase;
+   }
+   
+   .content p {
+    margin-top: 15px;
+    
+    font-family: var(--font-text);
+    font-weight: 500;
+   }
+   
+   .bgimage {
+    position: absolute;
+    
+    width: 2000px;
+    height: 900px;
+    margin-top: -7vw;
+    
+    filter: blur(25px) brightness(0.3);
+    clip-path: inset(0 0 45px 0);
+    transform: scale(1.2);
+    transform-origin: center;
+    -webkit-transform: scale(1.2);
+    -webkit-transform-origin: center;
+   }
+   
+   @media screen and (max-width: 1200px) {
+    .hero {
+      justify-content: flex-end;
+      padding-top: 0px;
+      padding-bottom: 30px;
+      margin-top: -100px;
+    }
+   
+    .hero h1 {
+      width: 85vw;
+      font-size: 1.8rem;
+    }
+   
+    .hero h2 {
+      width: 85vw;
+      font-size: 1.2rem;
+    }
+   
+    .hero address {
+      width: 85vw;
+      font-size: 0.9rem;
+    }
+   
+    .content {
+      width: 85vw;
+    }
+   
+    .content p {
+      font-size: 0.9rem;
+    }
+   }

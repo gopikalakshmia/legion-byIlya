@@ -1,0 +1,27 @@
+.content {
+    display: flex;
+    justify-content: center;
+    
+    width: 100vw;
+    min-height: 56.8vh;
+    
+    background-color: #f0f3f9;
+   }
+   
+   .calendar {
+    width: 80vw;
+    height: 70vh;
+    margin-top: 30px;
+    
+    user-select: none;
+   }
+   
+   .calendarcontainer {
+    position: relative;
+    display: flex;
+    
+    width: 80vw;
+    margin-bottom: 6px;
+    
+    background-color: #f0f3f9;
+   }

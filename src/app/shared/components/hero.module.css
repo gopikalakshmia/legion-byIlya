@@ -1,0 +1,47 @@
+.hero {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    
+    background: var(--bg-gradient);
+    color: var(--color-secondary);
+    font-family: var(--font-primary);
+   }
+   
+   .hero div {
+    width: 80%;
+    padding: 30px 0px;
+   }
+   
+   .hero h1 {
+    padding: 10px 0;
+    margin-bottom: 10px;
+    
+    font-size: var(--header-size);
+    font-weight: 700;
+    text-transform: uppercase;
+   }
+   
+   .hero p {
+    margin-bottom: 20px;
+    
+    font-family: var(--font-text);
+    font-size: 1rem;
+    font-weight: 500;
+   }
+   
+   @media screen and (max-width: 1200px) {
+    .hero p {
+      font-size: 0.8rem;
+    }
+   
+    .hero div {
+      padding: 0px;
+      padding-top: 10px;
+    }
+   }
