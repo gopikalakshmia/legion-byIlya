@@ -49,7 +49,7 @@ export const leaderData = [
           ]
       },
       {
-        name: "Jeff Scheibels",
+        name: "Jeff Sheibels",
         title: 'Finance Officer',
         photo: PortraitJeff,
         herophoto: HeroJeff,
